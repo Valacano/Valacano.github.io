@@ -92,7 +92,7 @@ submitButton.onclick = function() {
 }
 
 var getAssignments = function() {
-	fetch("https://weboneassignments.herokuapp.com/assignments", { credentials: 'include'}).then(function(response) {
+	fetch("https://weboneassignments.herokuapp.com/assignments", {credentials: 'include'}).then(function(response) {
 		response.json().then(function(data) {
 			
 			var assignmentList = document.querySelector("#assignmentList");
