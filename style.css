@@ -1,0 +1,86 @@
+body {
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 20pt;
+	background-color: rgba(174,255,231,0.42);
+	animation-name: annimationTest;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+}
+
+h2 {
+	font-size: 14pt;
+	display: none;
+}
+
+#thePage {
+	display:none;
+}
+
+#loginDiv {
+	display:block;
+}
+
+ol#suggestions {
+    padding: 0;
+    list-style-type: none;
+}
+
+#updateForm {
+	display: none;
+}
+
+.formDiv {
+	font-family: helvetica;
+	font-size: 14pt;
+	text-align: center-left;
+	padding: 5px;
+	margin: 20px;
+}
+
+.listDiv {
+	overflow-y:scroll;
+	display:block;
+	height:300px;
+}
+
+li {
+    width: 50%;
+    margin: 10px;
+    padding: 5px;
+	list-style-type: none;
+}
+
+.assignment-name {
+	font-family: helvetica;
+    font-weight: bold;
+}
+
+.class-name {
+	font-family: helvetica;
+    font-size: small;
+}
+
+.due-date {
+	font-family: helvetica;
+	font-size: medium;
+	font-weight: bold;
+}
+
+.professor {
+	font-family: helvetica;
+	font-size: small;
+}
+
+.description {
+	font-family: helvetica;
+	font-size: small;
+}
+
+@keyframes annimationTest {
+	0% 	{background-color: fuchsia;}
+	25%	{background-color: teal;}
+	50% {background-color: indianred;}
+	75%	{background-color: burlywood;}
+	100%	{background-color: violet;}
+}
