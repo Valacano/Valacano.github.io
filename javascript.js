@@ -237,7 +237,7 @@ var logUser = function (emailInput, passwordInput) {
 		if (response.status == 201) {
 			console.log(response, '-log successful');
 			logging();
-			return response.json(); // do i need to do anything else???
+			return response.json();
 		} else {
 			// display unexpected error, try again
 			window.alert('Username or password incorrect.');
@@ -270,10 +270,10 @@ var loadPage = function() {
 			loginButton.style.display = 'inline-block';
 			registerButton.style.display = 'inline-block';
 			email.style.display = 'inline-block';
-			password.style.display = 'block';
-			login.style.display = 'block';
-			register.style.display = 'block';
-			loginDiv.style.display = 'block';
+			password.style.display = 'inline-block';
+			login.style.display = 'inline-block';
+			register.style.display = 'inline-block';
+			loginDiv.style.display = 'inline-block';
 		}
 	});
 }
